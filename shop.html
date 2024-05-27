@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+</head>
+<style>
+#banner{
+background-image: url(/img/b1.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 40vh;
+display: flex;
+align-items: center;
+}
+#banner .content-outer{
+text-align: center;
+}
+#banner .offer {
+color: red;
+font-weight: 600;
+}
+#banner h2 , #banner p{
+color: #fff;
+}
+</style>
+<body>
+    <!-- header section -->
+    <section id="header">
+        <div class="page-center">
+            <div class="flex-outer">
+                <a href="index.html"> <img class="black-image" src="/img/site-logo.svg" alt="sitelogo" width="80%" ></a>
+
+                <ul id="navbar">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="shop.html">SHOP</a></li> 
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li class="bag"><a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                    <a href="#"  id="close"><i class="fa-solid fa-xmark"></i></a>
+                    <div id="dark" class="fa-solid fa-sun"></div>
+                </ul>
+            <div class="mobile-header">
+                <a class="bag" href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+                <i id="burger" class="fas fa-outdent"></i>
+            </div>
+            </div>
+ 
+            <div>
+    </section>
+<!-- banner section  -->
+<section id="banner">
+<div class="page-center">
+<div class="content-outer">
+<h2>Shop Your Fav Products</h2>
+<p>Save more with coupons & up to <span class="offer">70% off!</span></p>
+</div>
+</div>
+</section>
+    <!-- product section -->
+    <section id="product">
+        <div class="page-center">
+            <div class="product-container">
+                <div class="pro" onclick="window.location.href='sproduct.html';">
+                    <img src="/img/product-img-one.jpg" alt="t-shirt-images">
+                    <div class="des">
+                        <span>adidas</span>
+                        <h5>Oversized Tshirts</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>₹499</h4>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="/img/product-img-two.jpg" alt="t-shirt-images">
+                    <div class="des">
+                        <span>adidas</span>
+                        <h5>White Double Pocket</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>₹799</h4>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="/img/product-image-thre.jpg" alt="t-shirt-images">
+                    <div class="des">
+                        <span>Nike</span>
+                        <h5>Brown Baggy Double Pocket</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>₹1400</h4>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="/img/product-image-for.jpg" alt="t-shirt-images">
+                    <div class="des">
+                        <span>Lacosto</span>
+                        <h5>Black 81 Print</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>₹599</h4>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="/img/product-img-five.jpg" alt="t-shirt-images">
+                    <div class="des">
+                        <span>Puma</span>
+                        <h5>Black 16 Print Oversize</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>₹699</h4>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="/img/product-image-six.jpg" alt="t-shirt-images">
+                    <div class="des">
+                        <span>Lacosto</span>
+                        <h5>Multi Color Plaid Checks</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>₹899</h4>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="/img/product-image-seven.jpg" alt="t-shirt-images">
+                    <div class="des">
+                        <span>adidas</span>
+                        <h5>Black Stripped</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>₹599</h4>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="/img/product-image-eight.jpg" alt="t-shirt-images">
+                    <div class="des">
+                        <span>adidas</span>
+                        <h5>Green and Blue </h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>₹699</h4>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+                </div>
+
+                <div class="pro">
+                    <img src="/img/product-img-one.jpg" alt="t-shirt-images">
+                    <div class="des">
+                        <span>adidas</span>
+                        <h5>Oversized Tshirts</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>₹499</h4>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="/img/product-img-two.jpg" alt="t-shirt-images">
+                    <div class="des">
+                        <span>adidas</span>
+                        <h5>White Double Pocket</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>₹799</h4>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="/img/product-image-thre.jpg" alt="t-shirt-images">
+                    <div class="des">
+                        <span>Nike</span>
+                        <h5>Brown Baggy Double Pocket</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>₹1400</h4>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="/img/product-image-for.jpg" alt="t-shirt-images">
+                    <div class="des">
+                        <span>Lacosto</span>
+                        <h5>Black 81 Print</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>₹599</h4>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="/img/product-img-five.jpg" alt="t-shirt-images">
+                    <div class="des">
+                        <span>Puma</span>
+                        <h5>Black 16 Print Oversize</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>₹699</h4>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="/img/product-image-six.jpg" alt="t-shirt-images">
+                    <div class="des">
+                        <span>Lacosto</span>
+                        <h5>Multi Color Plaid Checks</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>₹899</h4>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="/img/product-image-seven.jpg" alt="t-shirt-images">
+                    <div class="des">
+                        <span>adidas</span>
+                        <h5>Black Stripped</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>₹599</h4>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="/img/product-image-eight.jpg" alt="t-shirt-images">
+                    <div class="des">
+                        <span>adidas</span>
+                        <h5>Green and Blue </h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>₹699</h4>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="/img/product-img-one.jpg" alt="t-shirt-images">
+                    <div class="des">
+                        <span>adidas</span>
+                        <h5>Oversized Tshirts</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>₹499</h4>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="/img/product-img-two.jpg" alt="t-shirt-images">
+                    <div class="des">
+                        <span>adidas</span>
+                        <h5>White Double Pocket</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>₹799</h4>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="/img/product-image-thre.jpg" alt="t-shirt-images">
+                    <div class="des">
+                        <span>Nike</span>
+                        <h5>Brown Baggy Double Pocket</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>₹1400</h4>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="/img/product-image-for.jpg" alt="t-shirt-images">
+                    <div class="des">
+                        <span>Lacosto</span>
+                        <h5>Black 81 Print</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>₹599</h4>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="/img/product-img-five.jpg" alt="t-shirt-images">
+                    <div class="des">
+                        <span>Puma</span>
+                        <h5>Black 16 Print Oversize</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>₹699</h4>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="/img/product-image-six.jpg" alt="t-shirt-images">
+                    <div class="des">
+                        <span>Lacosto</span>
+                        <h5>Multi Color Plaid Checks</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>₹899</h4>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="/img/product-image-seven.jpg" alt="t-shirt-images">
+                    <div class="des">
+                        <span>adidas</span>
+                        <h5>Black Stripped</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>₹599</h4>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="/img/product-image-eight.jpg" alt="t-shirt-images">
+                    <div class="des">
+                        <span>adidas</span>
+                        <h5>Green and Blue </h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>₹699</h4>
+                    </div>
+                    <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+                </div>
+            </div>
+    
+        </div>
+    </section>
+
+    <!-- sign up section -->
+    <section id="sign-up">
+<div class="page-center">
+    <div class="sign-up-container">
+<div class="left-container">
+    <h2>Sign Up For Newsletter</h2>
+    <p>Get E-mail updates about our latest products and <span class="offer">Offers</span></p>
+</div>
+<div class="right-contain">
+  <input type="email" placeholder="Enter Your E-mail">
+  <button> Sign Up</button>
+</div>
+    </div>
+</div>
+    </section>
+
+
+
+
+
+
+    <!-- Footer -->
+    <section id="footer">
+        <div class="page-center">
+            <div class="footer-container">
+                <div class="col">
+                    <img class="black-image" src="/img/site-logo.svg" alt="footer-logo" width="10%" class="foot-logo"><span class="de">ASP Shopping</span>
+                    <h4>Contact Us</h4>
+                    <p><strong>ADDRESS:</strong>562 Mahatma Pule Road Opposte Jockey Showroom Belagavi Classy Pro</p>
+                    <p><strong>PHONE:</strong>+91 01 2345 6789</p>
+                    <P><strong>TIMING:</strong>10am - 8pm Mon-Sat</P>
+                    <div class="follow">
+                        <h4>Follow us</h4>
+                        <div class="social-icons">
+                                <i class="fa-brands fa-facebook"></i>
+                                <i class="fa-brands fa-instagram"></i>
+                                <i class="fa-brands fa-twitter"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <h4>About</h4>
+                    <ul>
+                        <li><a href="#">About-us</a></li>
+                        <li><a href="#">Dilevery Info</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms And Conditions</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+
+                </div>
+                <div class="col">
+                    <h4>My Account</h4>
+                    <ul>
+                        <li><a href="#">Sign In</a></li>
+                        <li><a href="#">View Cart</a></li>
+                        <li><a href="#">My Wishlist</a></li>
+                        <li><a href="#">Track My Order</a></li>
+                        <li><a href="#">Help</a></li>
+                    </ul>
+                </div>
+
+                <div class="col">
+                    <h4>Install App</h4>
+                    <p>From App Store or Google Play</p>
+                    <div class="app-image">
+                    <img class="black-image" src="/img/Apple-Store.png" alt="" width="35%">
+                    <img class="black-image" src="/img/Google-play-store.png" alt="" width="36.4%">
+                    </div>
+                    <p>Secured Payment Gateways</p> 
+                    <img src="/img/payments-logo.svg" alt="paymentlogos"> 
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <script src="scricpt.js"></script>
+</body>
+
+</html>
